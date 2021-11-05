@@ -2,9 +2,9 @@
 <project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>vn.com.acbs.digital</groupId>
+  <groupId>com.github.ngocdbacbs.migration-toolkit</groupId>
   <artifactId>migration-toolkit-parent</artifactId>
-  <version>1.0.0</version>
+  <version>5c0a2e353a</version>
   <packaging>pom</packaging>
   <name>Migration Toolkit - Parent</name>
   <modules>

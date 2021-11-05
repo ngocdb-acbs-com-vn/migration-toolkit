@@ -3,9 +3,9 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <modelVersion>4.0.0</modelVersion>
   <parent>
-    <groupId>vn.com.acbs.digital</groupId>
+    <groupId>com.github.ngocdbacbs.migration-toolkit</groupId>
     <artifactId>migration-toolkit-parent</artifactId>
-    <version>1.0.0</version>
+    <version>5c0a2e353a</version>
   </parent>
   <artifactId>migration-toolkit-deployment</artifactId>
   <name>Migration Toolkit - Deployment</name>
@@ -15,9 +15,9 @@
       <artifactId>quarkus-arc-deployment</artifactId>
     </dependency>
     <dependency>
-      <groupId>vn.com.acbs.digital</groupId>
+      <groupId>com.github.ngocdbacbs.migration-toolkit</groupId>
       <artifactId>migration-toolkit</artifactId>
-      <version>${project.version}</version>
+      <version>5c0a2e353a</version>
     </dependency>
     <dependency>
       <groupId>io.quarkus</groupId>
@@ -41,4 +41,10 @@
       </plugin>
     </plugins>
   </build>
+  <repositories>
+    <repository>
+      <id>jitpack.io</id>
+      <url>https://jitpack.io</url>
+    </repository>
+  </repositories>
 </project>
